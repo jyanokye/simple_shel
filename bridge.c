@@ -17,7 +17,8 @@ int bridge(char *check, char **args)
 	while (check[i] != '\0')
 	{
 		if (check[i] == '/')
-			return (1);								i++;
+			return (1);
+		i++;
 	}
 	return (2);
 }
