@@ -6,7 +6,7 @@
 *
 * Return: reading counting bytes.
 */
-int getline(data_of_program *data)
+int getline(isatty_val *data)
 {
 	char buff[BUFFER_SIZE] = {'\0'};
 	static char *array_commands[10] = {NULL};
