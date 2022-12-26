@@ -28,7 +28,7 @@ int _strcmp(char *s1, char *s2);
 void _exit_function(void);
 void prompt_shell(void);
 char *get_line(int isatty_val);
-int print_alias(data_of_program *data, char *alias);
+int print_alias(int data_of_program *data, char *alias);
 char **_strtok(char *line_message);
 void _execev(char **line, char *argv, int num, int isatty_val, char **envi);
 int is_buit(char **line, char **environ);
