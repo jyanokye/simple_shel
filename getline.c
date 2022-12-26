@@ -6,7 +6,7 @@
 *
 * Return: reading counting bytes.
 */
-char *get_line(int isatty_val);
+char *get_line(int isatty_val)
 {
 	char buff[BUFFER_SIZE] = {'\0'};
 	static char *array_commands[10] = {NULL};
